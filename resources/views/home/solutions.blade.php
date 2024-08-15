@@ -135,7 +135,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-2.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -163,7 +163,7 @@
                         <div class="container">
                             <h2
                                 class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                {{ __('site.product') }}
+                                {{ __('site.Products') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Rayeb milk') }}
@@ -179,7 +179,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-2.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -237,7 +237,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-3.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -281,7 +281,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-3.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -336,7 +336,7 @@
         </div>
 
         <!-- start view proucts -->
-        <div class="view-product *:w-auto *:h-auto"></div>
+        <div class="view-product *:w-auto *:h-auto mb-5"></div>
 
     </div>
 
@@ -351,7 +351,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-4.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -395,7 +395,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-4.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -453,7 +453,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-5.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -497,7 +497,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-5.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -555,7 +555,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-6.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -599,7 +599,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-6.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -654,7 +654,7 @@
         </div>
 
         <!-- start view proucts -->
-        <div class="view-product *:w-auto *:h-auto"></div>
+        <div class="view-product *:w-auto *:h-auto mb-5"></div>
 
     </div>
 
@@ -669,7 +669,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-7.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -713,7 +713,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-7.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -771,7 +771,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-8.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -815,7 +815,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-8.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -873,7 +873,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-9.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -917,7 +917,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-9.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -972,7 +972,7 @@
         </div>
 
         <!-- start view proucts -->
-        <div class="view-product *:w-auto *:h-auto"></div>
+        <div class="view-product *:w-auto *:h-auto mb-5"></div>
 
     </div>
 
@@ -987,7 +987,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-10.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -1031,7 +1031,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-10.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -1089,7 +1089,7 @@
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
                         <img alt="solutions-img" class="w-full h-full object-cover rounded-full"
-                            src="{{ asset('assets/img/solutions/solutions-1.png') }}" />
+                            src="{{ asset('assets/img/solutions/solutions-11.png') }}" />
                     </div>
                 </div>
                 <h5 class="text-xl font-semibold capitalize">
@@ -1133,7 +1133,7 @@
                                     <!-- start circle -->
                                     <div
                                         class="w-[220px] h-[220px] lg:border border-primary flex gap-3 justify-center items-center rounded-full mx-auto relative">
-                                        <img src="{{ asset('assets/img/solutions/solutions-1.png') }}" alt=""
+                                        <img src="{{ asset('assets/img/solutions/solutions-11.png') }}" alt=""
                                             class="w-[50%] h-[50%] object-contain" />
                                         <div class="circle-solution lg:absolute lg:inset-[-15%]">
                                             <span class="lg:absolute">{{ __('site.Labnah') }}</span>
@@ -1188,7 +1188,7 @@
         </div>
 
         <!-- start view proucts -->
-        <div class="view-product *:w-auto *:h-auto"></div>
+        <div class="view-product *:w-auto *:h-auto mb-5"></div>
 
     </div>
 

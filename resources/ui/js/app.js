@@ -81,10 +81,10 @@ document.querySelectorAll(".product-item").forEach((item) => {
         const productItem = item.querySelector(".product-details-item");
         const viweItem = parent.querySelector(".view-product");
 
-        if (viweItem.innerHTML != "") {
-            viweItem.innerHTML = "";
-            return;
-        }
+        // if (viweItem.innerHTML != "") {
+        //     viweItem.innerHTML = "";
+        //     return;
+        // }
 
         viweItem.innerHTML = productItem.innerHTML;
     });
