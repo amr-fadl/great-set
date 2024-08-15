@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* start font regular for Calibri */
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/calibri-regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/calibri-italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* start font bold for Calibri */
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/calibri-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/calibri-bold-italic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* start font regular for Almarai */
+@font-face {
+    font-family: "Almarai";
+    src: url("../fonts/Almarai-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Almarai";
+    src: url("../fonts/Almarai-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Calibri", sans-serif;
+}
+body:lang(ar) {
+    font-family: "Almarai", sans-serif;
+}
+
+section {
+    @apply relative py-10 md:py-14 overflow-hidden;
+}
+
+/* start menu active */
+.menu .active {
+    height: auto;
+    opacity: 100%;
+}
+
+.circle-text:lang(ar) {
+    display: none !important;
+}
