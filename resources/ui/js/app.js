@@ -81,12 +81,17 @@ document.querySelectorAll(".product-item").forEach((item) => {
         const productItem = item.querySelector(".product-details-item");
         const viweItem = parent.querySelector(".view-product");
 
-        // if (viweItem.innerHTML != "") {
-        //     viweItem.innerHTML = "";
-        //     return;
-        // }
+        viweItem.innerHTML = !item.classList.contains("active")
+            ? productItem.innerHTML
+            : "";
 
-        viweItem.innerHTML = productItem.innerHTML;
+        // remove class active from active item
+        let oldActive = document.querySelector(".product-item.active");
+        oldActive?.classList?.remove("active");
+
+        if (item != oldActive) {
+            item.classList.toggle("active");
+        }
     });
 });
 
