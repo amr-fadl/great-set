@@ -12,22 +12,28 @@
         <p class="text-4xl font-bold pt-6 pb-12 text-center">“{{ __('site.Reach Us On') }}”</p>
 
         <!-- contact info -->
-        <div class="flex flex-wrap gap-12 max-sm:justify-center justify-between max-w-[600px] mx-auto">
+        <div class="flex flex-wrap gap-12 max-sm:justify-center justify-between max-w-[800px] mx-auto">
             <!-- Phone Number -->
-            <a class="flex gap-2.5 text-xl" href="tel:01010101010" target="_blank">
+            <a class="flex gap-2.5 text-xl" href="tel:+966500911084" target="_blank">
                 <img src="{{ asset('assets/img/icons/call-calling.svg') }}" alt="Phone Number Icon" class="w-6 h-6 object-contain" />
-                {{ __('site.Phone Number') }}
+               {{ __('site.Phone Number One') }}
+            </a>
+
+            <!-- Phone Number -->
+            <a class="flex gap-2.5 text-xl" href="tel:+966504981514" target="_blank">
+                <img src="{{ asset('assets/img/icons/call-calling.svg') }}" alt="Phone Number Icon" class="w-6 h-6 object-contain" />
+               {{ __('site.Phone Number Two') }}
             </a>
 
             <!-- Location -->
-            <a class="flex gap-2.5 text-xl" href="https://maps.google.com/maps?q=39.1893012,21.5318114&hl=es&z=14"
+            <a class="flex gap-2.5 text-xl" href="https://maps.google.com/maps?q=21.525655867711336,39.16758392887423&hl=es&z=14"
                 target="_blank">
                 <img src="{{ asset('assets/img/icons/location.svg') }}" alt="Location Icon" class="w-6 h-6 object-contain" />
                 {{ __('site.Location') }}
             </a>
 
             <!-- Email -->
-            <a class="flex gap-2.5 text-xl" href="mailto:test@gmail.com" target="_blank">
+            <a class="flex gap-2.5 text-xl" href="mailto:info@gr8set.com" target="_blank">
                 <img src="{{ asset('assets/img/icons/sms.svg') }}" alt="Email Icon" class="w-6 h-6 object-contain" />
                 {{ __('site.Email') }}
             </a>

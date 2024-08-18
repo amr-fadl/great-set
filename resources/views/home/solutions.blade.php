@@ -22,13 +22,13 @@
     </div>
 
     <!-- start single product group -->
-    <div class="product-group">
+    <div class="product-group relative">
 
         <!-- start product -->
         <div class="flex flex-wrap justify-center gap-10 lg:gap-16 max-w-[600px] mx-auto">
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -42,7 +42,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -60,8 +60,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Yogurt') }}
@@ -130,7 +130,7 @@
             </div>
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -144,7 +144,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -162,8 +162,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                {{ __('site.Products') }}
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Rayeb milk') }}
@@ -232,7 +232,7 @@
             </div>
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -246,7 +246,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -264,8 +264,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.UHT') }}
@@ -340,13 +340,13 @@
 
     </div>
 
-    <div class="product-group">
+    <div class="product-group relative">
 
         <!-- start product -->
         <div class="flex flex-wrap justify-center gap-10 lg:gap-16 max-w-[600px] mx-auto">
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -360,7 +360,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -378,8 +378,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Cheese') }}
@@ -448,7 +448,7 @@
             </div>
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -462,7 +462,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -480,8 +480,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Cream') }}
@@ -550,7 +550,7 @@
             </div>
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -564,7 +564,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -582,8 +582,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Tahini') }}
@@ -658,13 +658,13 @@
 
     </div>
 
-    <div class="product-group">
+    <div class="product-group relative">
 
         <!-- start product -->
         <div class="flex flex-wrap justify-center gap-10 lg:gap-16 max-w-[600px] mx-auto">
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -678,7 +678,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -696,8 +696,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Nectar') }}
@@ -766,7 +766,7 @@
             </div>
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -780,7 +780,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -798,8 +798,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Juice') }}
@@ -868,7 +868,7 @@
             </div>
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -882,7 +882,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -900,8 +900,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Ice Cream') }}
@@ -976,13 +976,13 @@
 
     </div>
 
-    <div class="product-group">
+    <div class="product-group relative">
 
         <!-- start product -->
         <div class="flex flex-wrap justify-center gap-10 lg:gap-16 max-w-[600px] mx-auto">
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -996,7 +996,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -1014,8 +1014,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Baked Goods') }}
@@ -1084,7 +1084,7 @@
             </div>
 
             <!-- product item -->
-            <div class="grid gap-7 text-center relative z-10 group product-item w-[140px]">
+            <div class="grid gap-7 text-center sm:relative z-10 group product-item w-[140px]">
                 <div
                     class="p-1 rounded-full overflow-hidden from-primary to-secondary bg-gradient-to-r bg-white w-full aspect-square">
                     <div class="w-full h-full p-4 bg-white rounded-full">
@@ -1098,7 +1098,7 @@
 
                 <!-- popup hover -->
                 <div
-                    class="absolute md:left-1/2 md:-translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
+                    class="absolute left-1/2 -translate-x-1/2 -mt-4 p-[1px] min-w-[300px] duration-300 overflow-hidden opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 group-hover:-translate-y-full -z-10">
                     <span class="absolute inset-0 from-primary to-secondary bg-gradient-to-r rounded-xl"></span>
                     <div class="relative z-10 bg-white rounded-xl p-4 text-start">
                         <h5 class="text-secondary text-2xl font-semibold capitalize">
@@ -1116,8 +1116,8 @@
                     <div class="py-12 bg-[#FAFAFA]">
                         <div class="container">
                             <h2
-                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute right-[-10%] -mt-5">
-                                product
+                                class="text-8xl [-webkit-text-stroke:0.5px_#999] text-transparent font-bold absolute ltr:right-[-10%] rtl:left-[10%] -mt-5">
+                                {{ __('site.Product') }}
                             </h2>
                             <h5 class="text-secondary text-2xl font-semibold capitalize mb-5">
                                 {{ __('site.Tomato Sauce') }}

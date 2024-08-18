@@ -91,6 +91,7 @@ document.querySelectorAll(".product-item").forEach((item) => {
 
         if (item != oldActive) {
             item.classList.toggle("active");
+            item.scrollIntoView();
         }
     });
 });

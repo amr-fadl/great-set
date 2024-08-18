@@ -28,6 +28,7 @@ return [
 
     // products
     'Products' => 'Products',
+    'Product' => 'Product',
     'Simple Additions For Stunning Results' => 'Simple Additions For Stunning Results',
     'thickeners' => 'thickeners',
     'emulsifier' => 'emulsifier',
@@ -76,6 +77,8 @@ return [
     'Inquiry' => 'Inquiry',
     'First Name' => 'First Name',
     'Email' => 'Email',
+    'Phone Number One' => 'Phone Number One',
+    'Phone Number Two' => 'Phone Number Two',
     'Phone Number' => 'Phone Number',
     'Your Message' => 'Your Message',
     'Send' => 'Send',

@@ -28,6 +28,7 @@ return [
 
     // products
     'Products' => 'منتجات',
+    'Product' => 'منتج',
     'Simple Additions For Stunning Results' => 'إضافات بسيطة لتحقيق نتائج مذهلة',
     'thickeners' => 'مكثفات',
     'emulsifier' => 'مستحلب',
@@ -78,6 +79,8 @@ return [
     'First Name' => 'الاسم الأول',
     'Email' => 'البريد الإلكتروني',
     'Phone Number' => 'رقم الهاتف',
+    'Phone Number One' => 'رقم الهاتف الاول',
+    'Phone Number Two' => 'رقم الهاتف الثاني',
     'Your Message' => 'رسالتك',
     'Send' => 'إرسال',
 
